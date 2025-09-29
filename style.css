@@ -1,0 +1,70 @@
+*{
+  font-family:monospace;
+}
+h2{
+  border:2px dashed  red ;
+  width:80%;
+  background-color: cornsilk;
+  color:#000;
+border:5px  dashed skyblue;
+  font-size: 2em;
+  margin:2rem;
+}
+
+
+main{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0px;
+  background-color:cornsilk;
+  color:black;
+  text-align: center;
+  border:5px  dashed skyblue;
+  margin:2rem;
+}
+
+span{
+  text-transform: uppercase;
+  color:lightsalmon;
+  width: 50px;
+}
+p1,  p3{
+  font-size: medium;
+}
+p{
+  border:2px  dashed #000;
+  margin:0rem;
+}
+
+header {
+  background-color: blue;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position:relative;
+  
+}
+
+
+
+button{
+  background-color: aqua;
+  height: 70px;
+  width:70px;
+  border-radius: 30px;
+  position: fixed;
+  right:10px;
+  bottom:5px;
+}
+
+
+footer {
+  background-color:black;
+  color: white;
+  text-align: left;
+  padding: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+margin-top: 10px;
+}

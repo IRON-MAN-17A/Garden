@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"roboto",sans-serif;
+    font-size:1.5rem;
+    min-height:200vh;
+}
+.outer-container {
+    border:3px dashed #000;
+    width:75vw;
+    height:85vh;
+    margin:40px auto;
+}  
+.inner-container {
+    border:2px solid grey;      
+    width:40vw;
+    height:50vh;
+    margin:200px auto;
+}
+.box { 
+    width:150px;
+    height:150px;
+    color:#fff;
+    padding:1rem;
+}
+.absolute {
+    background-color: aqua;
+    position:absolute;
+   top:10px;
+   bottom:70px;
+}
+.relative{
+background-color: blanchedalmond;
+position: relative;
+}
+.fixed{
+    background-color:blueviolet;
+    position: re;
+    left:20px;
+}
+.sticky{
+    background-color:cadetblue;
+    position: sticky;
+}

@@ -1,0 +1,78 @@
+header{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    
+
+    border:0.10em dashed grey;
+    border-radius:5em;
+    background-color: aqua;
+}
+
+
+.link{
+    font-size:10px;
+    text-transform: uppercase;
+    text-decoration: underline grey;
+    border:1px dashed blueviolet;
+    border-radius: 10px;
+    
+
+
+}
+p{
+    text-transform: capitalize;
+    
+
+}
+a{
+    text-decoration:underline;
+    cursor:pointer;
+    color:red;
+    font-style: inherit;
+    text-transform: uppercase;
+    background-color :cornsilk;
+
+}
+
+
+
+a:hover{
+    color:aquamarine;
+}  
+
+a:active{
+    color:red;
+}
+
+ div{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+ }
+
+.list{
+    background-color: antiquewhite;
+    border:2px dashed black;
+    border-radius: 10px;
+
+}
+ol{
+    list-style-type: lower-roman;
+}
+li{
+    color: red;
+    list-style-position: inside;
+}
+ol li:nth-child(odd){
+    color:blueviolet;
+    text-transform:uppercase ;
+
+}  
+ ul ::marker  {
+    list-style-type: square;
+    content:"cion vlaue ...";
+    color:bisque;
+ }
+
+
+

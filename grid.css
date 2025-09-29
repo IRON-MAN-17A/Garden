@@ -1,0 +1,81 @@
+.boxs{
+display: grid;
+grid-template-columns: 200px 1fr; 
+row-gap: 20px;
+}
+
+.box1{
+    background-color: aqua;
+    
+}
+.box2{
+    background-color:lightpink;
+   
+   
+}
+.boxes{
+display: grid;
+grid-template-columns: 50px 50px ; 
+width:200px;
+column-gap: 20px;
+row-gap: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:350px) and (max-width: 600px){
+    .garden {
+    background-size: contain;
+    width:100%;
+    height:auto;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar">
+                    <h3> <img src="leaf.png" width="30px " height="20px" > earthly elegance</h3>
+                  
+                    <div class="navbar-menu-items">
+                        <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#service">Service</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                    </div>
+                <button class="button">Get a Free Quote</button>
+            </nav>
+
+
+
+  
+
+
+
+
